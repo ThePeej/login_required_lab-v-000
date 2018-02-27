@@ -10,6 +10,10 @@ class SessionsController < ApplicationController
     else
       session[:name] = params[:name]
     end
+  end
+
+  def destroy
+    session.destroy :name
 
 
 end
