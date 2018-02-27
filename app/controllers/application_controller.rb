@@ -8,5 +8,7 @@ class ApplicationController < ActionController::Base
       session[:name]
     else
       nil
+    end
   end
+  
 end
