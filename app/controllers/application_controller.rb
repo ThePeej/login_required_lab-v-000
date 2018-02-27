@@ -6,5 +6,7 @@ class ApplicationController < ActionController::Base
   def current_user
     if session.include? :name
       session[:name]
+    else
+      nil
   end
 end
