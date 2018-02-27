@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
 
   def current_user
     if session.include? :name
-      session[]
+      session[:name]
   end
 end
