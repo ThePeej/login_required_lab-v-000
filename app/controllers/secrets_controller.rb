@@ -4,9 +4,4 @@ class SecretsController < ApplicationController
 
   end
 
-
-  private
-
-
-
 end
